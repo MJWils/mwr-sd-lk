@@ -1,0 +1,10 @@
+.DS_Store
+debug.log
+dist/
+node_modules/
+src/.tmp/
+src/docs
+# src/assets/icons/duotone-icons
+Landkit-2.0.0-beta1
+Landkit-1.2.2.zip
+Landkit-2.0.0-beta1.zip

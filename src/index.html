@@ -1,0 +1,798 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    @@include("partials/head.html", {
+      "pageTitle": "Shmlaire's Site"
+    })
+  </head>
+  <body>
+
+    <!-- MODALS
+    ================================================== -->
+    @@include("partials/modals.html")
+    
+    <!-- NAVBAR
+    ================================================== -->
+    @@include("partials/navbar.html", {
+      "classList": "navbar-dark bg-dark border-bottom navbar-togglable fixed-top",
+      "container": "container-fluid",
+      "button": "primary"
+    })
+
+    <!-- WELCOME
+    ================================================== -->
+    <section class="py-10 py-md-14" id="welcome" style="
+                                                        background: linear-gradient(180deg, rgba(124, 96, 96, 0.9), rgba(0,0,0,.8), rgba(0,0,0,.7)),
+                                                                     url(assets/mwr-img/hh-4.jpeg) no-repeat center center / cover;
+                                                        ";>
+
+      <!-- Shape -->
+      <div class="shape shape-blur-3 svg-shim text-white">
+        @@include("assets/img/shapes/blurs/blur-3.svg")
+      </div>
+
+      <!-- <div class="shape shape-top shape-fluid-x svg-shim text-white">
+        @@include("assets/img/shapes/waves/wave-1.svg")
+      </div> -->
+      
+      <!-- Content -->
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+            
+            <!-- Heading -->
+            <h1 class="display-5 font-weight-bold text-muted">
+              <!-- <span class="text-success" data-toggle="typed" data-options='{"strings": ["Events", "Weddings", "Everything"]}'></span> -->
+              Everything
+            </h1>
+            <h2 class="text-white">Made Easy</h2>
+            <img src="../src/assets/mwr-img/mwr-logo-inv.png" alt="My Weddings Rock logo" width="300" height="300">
+
+            <!-- Text -->
+            <p class="lead text-white mb-8">
+              Helping you create your perfect day
+            </p>
+
+            <!-- Button -->
+            <a href="#!" class="btn btn-white shadow lift">
+              What we do
+            </a>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+
+    </section>
+
+    <!-- SHAPE
+    ================================================== -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+        @@include("assets/img/shapes/curves/curve-1.svg")
+      </div>
+    </div>
+
+    <!-- ABOUT
+    ================================================== -->
+    <section class="pt-8 pt-md-10" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            
+            <!-- Button -->
+            <a href="#about" class="btn btn-white btn-rounded-circle shadow mt-n12 mt-md-n14" data-toggle="smooth-scroll">
+              <i class="fe fe-heart"></i>
+            </a>
+
+          </div>
+        </div> <!-- / .row -->
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+            
+            <!-- Heading -->
+            <h2 class="font-weight-bold">
+              Putting the <span class="text-primary">we</span> into weddings.
+            </h2>
+
+            <!-- Text -->
+            <p class="font-size-lg text-muted mb-9">
+              After five years of experience in business, we know exactly how to make <span class="text-primary">your</span> wedding special
+            </p>
+
+          </div>
+        </div> <!-- / .row -->
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            
+            <!-- Item -->
+            <div class="row align-items-center mb-8"data-aos="fade-up">
+              <div class="col-4 col-lg-5">
+                
+                <!-- Image -->
+                <img src="assets/img/illustrations/illustration-4.png" alt="..." class="img-fluid">
+
+              </div>
+              <div class="col-8 col-lg-7">
+                
+                <!-- Heading -->
+                <h3 class="font-weight-bold mb-2">
+                  Conversations
+                </h3>
+
+                <!-- Text -->
+                <p class="text-gray-700 mb-0">
+                  We sit down with you and find out how what makes you, you!
+                </p>
+
+              </div>
+            </div> <!-- / .row -->
+
+            <!-- Item -->
+            <div class="row align-items-center mb-8" data-aos="fade-up">
+              <div class="col-4 col-lg-5">
+                
+                <!-- Image -->
+                <img src="assets/img/illustrations/illustration-8.png" alt="..." class="img-fluid">
+
+              </div>
+              <div class="col-8 col-lg-7">
+                
+                <!-- Heading -->
+                <h3 class="font-weight-bold mb-2">
+                  Aliviating Stress 
+                </h3>
+
+                <!-- Text -->
+                <p class="text-gray-700 mb-0">
+                  We know how much work goes into one day, we're here to help.
+                </p>
+
+              </div>
+            </div> <!-- / .row -->
+
+
+          </div>
+          <div class="col-12 col-lg-6">
+            <!-- Item -->
+            <div class="row align-items-center mb-8" data-aos="fade-up">
+              <div class="col-4 col-lg-5">
+                
+                <!-- Image -->
+                <img src="assets/img/illustrations/illustration-7.png" alt="..." class="img-fluid">
+
+              </div>
+              <div class="col-8 col-lg-7">
+                
+                <!-- Heading -->
+                <h3 class="font-weight-bold mb-2">
+                  Planning
+                </h3>
+
+                <!-- Text -->
+                <p class="text-gray-700 mb-0">
+                  We know it's the little touches that make the biggest difference, we're here to ensure a magical experience for all.
+                </p>
+
+              </div>
+            </div> <!-- / .row -->
+
+            <!-- Item -->
+            <div class="row align-items-center mb-8" data-aos="fade-up">
+              <div class="col-4 col-lg-5">
+                
+                <!-- Image -->
+                <img src="assets/img/illustrations/illustration-6.png" alt="..." class="img-fluid">
+
+              </div>
+              <div class="col-8 col-lg-7">
+                
+                <!-- Heading -->
+                <h3 class="font-weight-bold mb-2">
+                  Putting the wheels in motion
+                </h3>
+
+                <!-- Text -->
+                <p class="text-gray-700 mb-0">
+                  Walking the walk is even more important than talking the talk! Let us proove to you how much we can help. 
+                </p>
+
+              </div>
+            </div> <!-- / .row -->
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+
+    <!-- TESTIMONIALS
+    ================================================== -->
+    <!-- <section data-jarallax data-speed=".8" class="py-15 overlay overlay-black overlay-60 jarallax" style="background-image: url(assets/img/covers/cover-1.jpg);">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-md-7">
+            
+            <blockquote class="blockquote mb-0">
+
+              <p class="h2 text-white">
+                "Absolutely fantastic! So helpful and friendly! Highly recommended!!!"
+              </p>
+
+              <footer class="blockquote-footer text-white-50 mb-0">            
+                Ellie Kate
+              </footer>
+
+            </blockquote>
+
+          </div>
+        </div> 
+      </div> 
+    </section> -->
+    <!-- <section data-jarallax data-speed=".8" class="py-15 overlay overlay-black overlay-60 jarallax" style="background-image: url(assets/img/covers/cover-1.jpg);"> -->
+    <div id="carouselExampleControls" 
+         class="container-fluid bg-dark text-white-50 carousel slide d-flex justify-content-center align-items-center text-center py-5 overlay overlay-black overlay-60 jarallax"
+         data-ride="carousel"
+         data-jarallax data-speed=".8"
+         style="min-height: 55vh;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                background: 
+                            linear-gradient(90deg, rgba(0,0,0,.9), rgba(0,0,0,.5), rgba(0,0,0,.8)),
+                            url(assets/mwr-img/t-bg.jpeg) no-repeat center center / cover;            
+                                ">
+      <div class="shape shape-top shape-fluid-x svg-shim text-white">
+        @@include("assets/img/shapes/waves/wave-1.svg")
+      </div>
+      <div class="carousel-inner ">
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 offset-md-3 col-md-6">
+                
+                <blockquote class="blockquote mb-0">
+    
+                  <p class="h2 text-white">
+                    "Absolutely fantastic! So helpful and friendly! Highly recommended!!!"
+                  </p>
+    
+                  <footer class="blockquote-footer text-white-50 mb-0">            
+                    Ellie Kate
+                  </footer>
+    
+                </blockquote>
+    
+              </div>
+            </div> 
+          </div> 
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 offset-md-3 col-md-6">
+                
+                <blockquote class="blockquote mb-0">
+    
+                  <p class="h2 text-white">
+                    "Absolutely amazing service – had great communication and really reasonably priced. Would highly recommend"
+                  </p>
+    
+                  <footer class="blockquote-footer text-white-50 mb-0">            
+                    Cathy Roscoe
+                  </footer>
+    
+                </blockquote>
+    
+              </div>
+            </div> 
+          </div> 
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row">
+              <div class="col-12 offset-md-3 col-md-6">
+                
+                <blockquote class="blockquote mb-0">
+    
+                  <p class="h2 text-white">
+                    "Such lovely people, offering a fantastic service and very competitively priced"
+                  </p>
+    
+                  <footer class="blockquote-footer text-white-50 mb-0">            
+                    Carol Faulkner
+                  </footer>
+    
+                </blockquote>
+    
+              </div>
+            </div> 
+          </div> 
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  <!-- </section>  -->
+    <!-- SHAPE
+    ================================================== -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+        @@include("assets/img/shapes/curves/curve-2.svg")
+      </div>
+    </div>
+
+    <!-- CASE STUDIES
+    ================================================== -->
+    <section class="pt-10">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+            
+            <!-- Badge -->
+            <span class="badge badge-pill badge-success-soft mb-3">
+              <span class="h6 text-uppercase">Our latest work</span>
+            </span>
+
+            <!-- Heading -->
+            <h2 class="font-weight-bold">
+              Proud to be the company chosen.
+            </h2>
+
+            <!-- Text -->
+            <p class="font-size-lg text-gray-700 mb-9">
+              We know how much trust you put into your wedding planner, allow our efficiency to put your mind at rest
+            </p>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- CASE STUDIES (CAROUSEL)
+    ================================================== -->
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            
+            <!-- Flickity -->
+            <div class="flickity-viewport-visible pt-2 pb-9" data-flickity='{"cellAlign": "left", "imagesLoaded": true, "pageDots": false, "prevNextButtons": false, "contain": true}'>
+              
+              <div class="col-12 col-md-5 col-lg-4">
+                  <div class="card card-border shadow-light-lg lift lift-lg">
+
+                  <!-- Image -->
+                  <a class="card-img-top" href="#!">
+    
+                    <!-- Image -->
+                    <img src="assets/mwr-img/ex-1.png" width="300" height="300" alt="..." class="card-img-top">
+    
+                    <!-- Shape -->
+                    <div class="position-relative">
+                      <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                        @@include("assets/img/shapes/curves/curve-6.svg")
+                      </div>
+                    </div>
+    
+                  </a>
+    
+                  <!-- Body -->
+                  <a class="card-body" href="#!">
+    
+                    <!-- Heading -->
+                    <h3>
+                      U's Baby Shower
+                    </h3>
+    
+                  </a>
+                </div>
+              </div>
+              <div class="col-12 col-md-5 col-lg-4">
+                  <div class="card card-border shadow-light-lg lift lift-lg">
+
+                  <!-- Image -->
+                  <a class="card-img-top" href="#!">
+    
+                    <!-- Image -->
+                    <img src="assets/mwr-img/ex-2.png" width="300" height="300" alt="..." class="card-img-top">
+    
+                    <!-- Shape -->
+                    <div class="position-relative">
+                      <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                        @@include("assets/img/shapes/curves/curve-3.svg")
+                      </div>
+                    </div>
+    
+                  </a>
+    
+                  <!-- Body -->
+                  <a class="card-body" href="#!">
+    
+                    <!-- Heading -->
+                    <h3>
+                      V & W's Wedding
+                    </h3>
+    
+                  </a>
+                </div>
+              </div>
+              <div class="col-12 col-md-5 col-lg-4">
+                  <div class="card card-border shadow-light-lg lift lift-lg">
+
+                  <!-- Image -->
+                  <a class="card-img-top" href="#!">
+    
+                    <!-- Image -->
+                    <img src="assets/mwr-img/ex-3.png" width="300" height="300" alt="..." class="card-img-top">
+    
+                    <!-- Shape -->
+                    <div class="position-relative">
+                      <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                        @@include("assets/img/shapes/curves/curve-6.svg")
+                      </div>
+                    </div>
+    
+                  </a>
+    
+                  <!-- Body -->
+                  <a class="card-body" href="#!">
+    
+                    <!-- Heading -->
+                    <h3>
+                      X's Birthday
+                    </h3>
+    
+                  </a>
+                </div>
+              </div>
+              <div class="col-12 col-md-5 col-lg-4">
+                  <div class="card card-border shadow-light-lg lift lift-lg">
+
+                  <!-- Image -->
+                  <a class="card-img-top" href="#!">
+    
+                    <!-- Image -->
+                    <img src="assets/mwr-img/ex-4.png" width="300" height="300" alt="..." class="card-img-top">
+    
+                    <!-- Shape -->
+                    <div class="position-relative">
+                      <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                        @@include("assets/img/shapes/curves/curve-3.svg")
+                      </div>
+                    </div>
+    
+                  </a>
+    
+                  <!-- Body -->
+                  <a class="card-body" href="#!">
+    
+                    <!-- Heading -->
+                    <h3>
+                      Y & Z's Wedding
+                    </h3>
+    
+                  </a>
+                </div>
+              </div>
+              <div class="col-12 col-md-5 col-lg-4">
+                  <div class="card card-border shadow-light-lg lift lift-lg">
+
+                  <!-- Image -->
+                  <a class="card-img-top" href="#!">
+    
+                    <!-- Image -->
+                    <img src="assets/mwr-img/ex-5.png" width="300" height="300" alt="..." class="card-img-top">
+    
+                    <!-- Shape -->
+                    <div class="position-relative">
+                      <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                        @@include("assets/img/shapes/curves/curve-6.svg")
+                      </div>
+                    </div>
+    
+                  </a>
+    
+                  <!-- Body -->
+                  <a class="card-body" href="#!">
+    
+                    <!-- Heading -->
+                    <h3>
+                      A & B's Wedding
+                    </h3>
+    
+                  </a>
+                </div>
+              </div>
+              <div class="col-12 col-md-5 col-lg-4">
+                  <div class="card card-border shadow-light-lg lift lift-lg">
+
+                  <!-- Image -->
+                  <a class="card-img-top" href="#!">
+    
+                    <!-- Image -->
+                    <img src="assets/mwr-img/ex-6.png" width="300" height="300" alt="..." class="card-img-top">
+    
+                    <!-- Shape -->
+                    <div class="position-relative">
+                      <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+                        @@include("assets/img/shapes/curves/curve-3.svg")
+                      </div>
+                    </div>
+    
+                  </a>
+    
+                  <!-- Body -->
+                  <a class="card-body" href="#!">
+    
+                    <!-- Heading -->
+                    <h3>
+                      C & D's Special Day
+                    </h3>
+    
+                  </a>
+                </div>
+              </div>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- INTEGRATIONS
+    ================================================== -->
+    <section class="pt-8 pt-md-11">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+            
+            <!-- Badge -->
+            <span class="badge badge-pill badge-success-soft mb-3">
+              <span class="h6 text-uppercase">For hire</span>
+            </span>
+
+            <!-- Heading -->
+            <h2 class="font-weight-bold">
+              With imagination as the only limitation
+            </h2>
+
+            <!-- Text -->
+            <p class="font-size-lg text-gray-700 mb-9">
+              Your wedding should be how you want it, in the colour you want it, we're here to deliver your dreams.
+            </p>
+
+          </div>
+        </div> <!-- / .row -->
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 text-center" data-aos="fade-up">
+              
+            <!-- Icon -->
+            <div class="icon icon-lg mb-4">
+              @@include("assets/mwr-img/chair.svg")
+            </div>
+
+            <!-- Heading -->
+            <h3 class="font-weight-bold">
+              Chair covers
+            </h3>
+
+            <!-- Text -->
+            <p class="text-muted mb-8">
+              Simple and synergetic chair covers provide elegant solutions
+            </p>
+
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 text-center" data-aos="fade-up" >
+
+            <!-- Icon -->
+            <div class="icon icon-lg mb-4">
+              @@include("assets/mwr-img/dining-table.svg")
+            </div>
+
+            <!-- Heading -->
+            <h3 class="font-weight-bold">
+              Table dresses
+            </h3>
+
+            <!-- Text -->
+            <p class="text-muted mb-8 mb-lg-0">
+              Communicate class through sophisticated table designs
+            </p>
+
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 text-center" data-aos="fade-up">
+              
+            <!-- Icon -->
+            <div class="icon icon-lg mb-4">
+              @@include("assets/mwr-img/wedding-arch.svg")
+            </div>
+
+            <!-- Heading -->
+            <h3 class="font-weight-bold">
+              Backdrops
+            </h3>
+
+            <!-- Text -->
+            <p class="text-muted mb-8 mb-md-0">
+              Guide your guests eyes towards a beautiful backdrop to complement the foreground scenery.
+            </p>
+
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 text-center" data-aos="fade-up">
+            
+            <!-- Icon -->
+            <div class="icon icon-lg mb-4">
+              @@include("assets/mwr-img/cp.svg")
+            </div>
+
+            <!-- Heading -->
+            <h3 class="font-weight-bold">
+              Centre Pieces
+            </h3>
+
+            <!-- Text -->
+            <p class="text-muted mb-8">
+              Make each table feel special, give them something to admire whilst enjoying their dining experience.
+            </p>
+
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 text-center" data-aos="fade-up">
+              
+            <!-- Icon -->
+            <div class="icon icon-lg mb-4">
+              @@include("assets/mwr-img/spotlight.svg")
+            </div>
+
+            <!-- Heading -->
+            <h3 class="font-weight-bold">
+              Uplighting
+            </h3>
+
+            <!-- Text -->
+            <p class="text-muted mb-8">
+              Ensure those special parts of the room are illumniated to carry off the desired dreamy effect.
+            </p>
+
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 text-center" data-aos="fade-up">
+              
+            <!-- Icon -->
+            <div class="icon icon-lg mb-4">
+              @@include("assets/mwr-img/dance-floor.svg")
+            </div>
+
+            <!-- Heading -->
+            <h3 class="font-weight-bold">
+              Extra Touches
+            </h3>
+
+            <!-- Text -->
+            <p class="text-muted mb-0">
+              From cake stands to dance Fro-Yo carts, we know it's the little extras that make the biggest impact
+            </p>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- Contact us
+    ================================================== -->
+    <section class="py-11">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8">
+            
+            <!-- Card -->
+            <div class="card card-border border-primary shadow-light-lg" data-jarallax-element="-40">
+              <div class="card-body">
+                <div class="row justify-content-center">
+                  <div class="col-12 col-xl-11">
+                
+                    <!-- Image -->
+                    <div class="text-center">
+                      <img src="assets/mwr-img/email.svg" alt="..." class="img-fluid mb-3" style="width: 200px;">
+                    </div>
+
+                    <!-- Heading -->
+                    <h2 class="font-weight-bold text-center mb-1">
+                      Write to us!
+                    </h2>
+
+                    <!-- Text -->
+                    <p class="font-size-lg text-center text-muted mb-6 mb-md-8">
+                      We'd love to assist in any way we can
+                    </p>
+
+                    <!-- Form -->
+                    <form>
+                      <div class="row">
+                        <div class="col-12 col-md-6">
+                          <div class="form-group mb-5">
+                            
+                            <!-- Label -->
+                            <label for="contactName">
+                              Full name
+                            </label>
+        
+                            <!-- Input -->
+                            <input type="text" class="form-control" id="contactName" placeholder="Full name">
+        
+                          </div>
+                        </div>
+                        <div class="col-12 col-md-6">
+                          <div class="form-group mb-5">
+                            
+                            <!-- Label -->
+                            <label for="contactEmail">
+                              Email
+                            </label>
+        
+                            <!-- Input -->
+                            <input type="email" class="form-control" id="contactEmail" placeholder="hello@domain.com">
+        
+                          </div>
+                        </div>
+                      </div> <!-- / .row -->
+                      <div class="row">
+                        <div class="col-12">
+                          <div class="form-group mb-7 mb-md-9">
+                            
+                            <!-- Label -->
+                            <label for="contactMessage">
+                              How can we be of service?
+                            </label>
+        
+                            <!-- Input -->
+                            <textarea class="form-control" id="contactMessage" rows="5" placeholder="Tell us what we can help you with!"></textarea>
+        
+                          </div>
+                        </div>
+                      </div> <!-- / .row -->
+                      <div class="row justify-content-center">
+                        <div class="col-auto">
+                          
+                          <!-- Submit -->
+                          <button type="submit" class="btn btn-primary lift">
+                            Send message
+                          </button>
+        
+                        </div>
+                      </div> <!-- / .row -->
+                    </form>
+                  
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- CURVE
+    ================================================== -->
+    <div class="position-relative mt-n16">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-dark">
+        @@include("assets/img/shapes/curves/curve-1.svg")
+      </div>
+    </div>
+
+    <!-- FOOTER
+    ================================================== -->
+    <section class="pt-16 bg-dark">
+      @@include("partials/footer.html", {
+        "classList": "bg-dark border-top border-gray-800-50"
+      })
+    </section>
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    @@include("partials/scripts.html")
+      
+  </body>
+</html>
