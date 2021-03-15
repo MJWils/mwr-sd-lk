@@ -10,45 +10,56 @@
     <!-- MODALS
     ================================================== -->
     @@include("partials/modals.html")
-
+    
     <!-- NAVBAR
     ================================================== -->
     @@include("partials/navbar.html", {
-    "classList": "navbar-dark",
-    "container": "container",
-    "button": "primary"
+      "classList": "navbar-dark bg-dark border-bottom navbar-togglable fixed-top",
+      "container": "container-fluid",
+      "button": "primary"
     })
 
-    <!-- WELCOME
+    <!-- header
     ================================================== -->
-    <section data-jarallax data-speed=".8" class="pt-12 pt-md-14 pb-12 pb-md-15 overlay overlay-black overlay-60 bg-cover jarallax" style="margin-top: -83px; background-image: url(assets/img/covers/cover-3.jpg);">
+    <section  data-jarallax data-speed=".8" class="py-10 py-md-14 d-flex align-items-center bg-cover jarallax" 
+              style="background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0,0,0,.8), rgba(0,0,0,.9)),
+                                 url(assets/mwr-img/ex-6.png) no-repeat center center / cover;
+                    min-height: 80vh;">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-12 col-md-10 col-lg-7 text-center">
 
             <!-- Headin -->
             <h1 class="display-2 font-weight-bold text-white">
-              Our Work.
+              Our Gallery
             </h1>
 
             <!-- Text -->
-            <p class="lead text-white-75 mb-4">
-              We design & build products, tools, apps, and sites for companies trying to do great things for our planet.
+            <p class="lead text-white-75 mb-5 pb-5">
+              We love what we do, and are happy to see you're interested too!
             </p>
+
+            <p class="text-muted">Click on the buttons below to view what you're interested in <i class="fe fe-heart"></i></p>
 
             <!-- Badges -->
             <nav class="nav justify-content-center">
               <a class="badge badge-pill badge-white-soft active mr-1 mb-1" href="#" data-toggle="pill" data-filter="*" data-target="#portfolio">
-                <span class="h6 text-uppercase">Primary</span>
+                <span class="h6 text-uppercase">All</span>
               </a>
-              <a class="badge badge-pill badge-white-soft mr-1 mb-1" href="#" data-toggle="pill" data-filter=".product" data-target="#portfolio">
-                <span class="h6 text-uppercase">Product</span>
+              <a class="badge badge-pill badge-white-soft mr-1 mb-1" href="#" data-toggle="pill" data-filter=".weddings" data-target="#portfolio">
+                <span class="h6 text-uppercase">Weddings</span>
               </a>
-              <a class="badge badge-pill badge-white-soft mr-1 mb-1" href="#" data-toggle="pill" data-filter=".ux" data-target="#portfolio">
-                <span class="h6 text-uppercase">UX</span>
+              <a class="badge badge-pill badge-white-soft mr-1 mb-1" href="#" data-toggle="pill" data-filter=".christenings" data-target="#portfolio">
+                <span class="h6 text-uppercase">Christenings</span>
               </a>
-              <a class="badge badge-pill badge-white-soft mr-1 mb-1" href="#" data-toggle="pill" data-filter=".resources" data-target="#portfolio">
-                <span class="h6 text-uppercase">Resources</span>
+              <a class="badge badge-pill badge-white-soft mr-1 mb-1" href="#" data-toggle="pill" data-filter=".anniversaries" data-target="#portfolio">
+                <span class="h6 text-uppercase">Anniversaries</span>
+              </a>
+              <a class="badge badge-pill badge-white-soft mr-1 mb-1" href="#" data-toggle="pill" data-filter=".birthdays" data-target="#portfolio">
+                <span class="h6 text-uppercase">Birthdays</span>
+              </a>
+              <a class="badge badge-pill badge-white-soft mr-1 mb-1" href="#" data-toggle="pill" data-filter=".baby-showers" data-target="#portfolio">
+                <span class="h6 text-uppercase">Baby Showers</span>
               </a>
             </nav>
 
@@ -57,27 +68,27 @@
       </div> <!-- / .container -->
     </section>
 
-    <!-- SHAPE
-    ================================================== -->
-    <div class="position-relative">
-      <div class="shape shape-bottom shape-fluid-x svg-shim text-light">
-        @@include("assets/img/shapes/curves/curve-1.svg")
+      <!-- SHAPE
+      ================================================== -->
+      <div class="position-relative">
+        <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+      @@include("assets/img/shapes/curves/curve-1.svg")
+        </div>
       </div>
-    </div>
 
     <!-- CONTENT
     ================================================== -->
     <section class="py-8 py-md-11 mt-n10 mt-md-n14">
       <div class="container">
         <div class="row" id="portfolio" data-isotope='{"layoutMode": "masonry"}'>
-          <div class="col-12 col-md-4 resources">
+          <div class="col-12 col-md-4 baby-showers">
 
             <!-- Card -->
             <a class="card shadow-light-lg mb-7" href="#!">
 
               <!-- Image -->
               <div class="card-zoom">
-                <img class="card-img" src="assets/img/portfolio/portfolio-1.jpg" alt="...">
+                <img class="card-img" src="assets/mwr-img/ex-1.png" alt="...">
               </div>
 
               <!-- Overlay -->
@@ -90,10 +101,10 @@
                   </div>
 
                   <!-- Preheading -->
-                  <h6 class="text-uppercase mb-1 text-muted">Branding</h6>
+                  <h6 class="text-uppercase mb-1 text-muted">Baby Shower</h6>
 
                   <!-- Heading -->
-                  <h4 class="mb-0">Curology Any Face Campaign</h4>
+                  <h4 class="mb-0">U's Holy Experience</h4>
 
                 </div>
               </div>
@@ -101,14 +112,14 @@
             </a>
 
           </div>
-          <div class="col-12 col-md-4 product">
+          <div class="col-12 col-md-4 weddings">
 
             <!-- Card -->
             <a class="card shadow-light-lg mb-7" href="#!">
 
               <!-- Image -->
               <div class="card-zoom">
-                <img class="card-img" src="assets/img/portfolio/portfolio-10.jpg" alt="...">
+                <img class="card-img" src="assets/mwr-img/ex-2.png" alt="...">
               </div>
 
               <!-- Overlay -->
@@ -121,10 +132,10 @@
                   </div>
 
                   <!-- Preheading -->
-                  <h6 class="text-uppercase mb-1 text-muted">Branding</h6>
+                  <h6 class="text-uppercase mb-1 text-muted">Wedding</h6>
 
                   <!-- Heading -->
-                  <h4 class="mb-0">Honest Packaging</h4>
+                  <h4 class="mb-0">V & W's Special Day</h4>
 
                 </div>
               </div>
@@ -132,14 +143,14 @@
             </a>
 
           </div>
-          <div class="col-12 col-md-4 resources">
+          <div class="col-12 col-md-4 birthdays">
 
             <!-- Card -->
             <a class="card shadow-light-lg mb-7" href="#!">
 
               <!-- Image -->
               <div class="card-zoom">
-                <img class="card-img" src="assets/img/portfolio/portfolio-11.jpg" alt="...">
+                <img class="card-img" src="assets/mwr-img/ex-3.png" alt="...">
               </div>
 
               <!-- Overlay -->
@@ -152,10 +163,10 @@
                   </div>
 
                   <!-- Preheading -->
-                  <h6 class="text-uppercase mb-1 text-muted">Branding</h6>
+                  <h6 class="text-uppercase mb-1 text-muted">Birthday</h6>
 
                   <!-- Heading -->
-                  <h4 class="mb-0">Larq Bright Campaign</h4>
+                  <h4 class="mb-0">X's Birthday</h4>
 
                 </div>
               </div>
@@ -163,14 +174,14 @@
             </a>
 
           </div>
-          <div class="col-12 col-md-4 ux">
+          <div class="col-12 col-md-4 weddings">
 
             <!-- Card -->
             <a class="card shadow-light-lg mb-7" href="#!">
 
               <!-- Image -->
               <div class="card-zoom">
-                <img class="card-img" src="assets/img/portfolio/portfolio-13.jpg" alt="...">
+                <img class="card-img" src="assets/mwr-img/ex-4.png" alt="...">
               </div>
 
               <!-- Overlay -->
@@ -183,10 +194,10 @@
                   </div>
 
                   <!-- Preheading -->
-                  <h6 class="text-uppercase mb-1 text-muted">Branding</h6>
+                  <h6 class="text-uppercase mb-1 text-muted">Wedding</h6>
 
                   <!-- Heading -->
-                  <h4 class="mb-0">Larq Earthtones Collection</h4>
+                  <h4 class="mb-0">Y & Z's Special Day</h4>
 
                 </div>
               </div>
@@ -194,14 +205,14 @@
             </a>
 
           </div>
-          <div class="col-12 col-md-4 ux">
+          <div class="col-12 col-md-4 weddings">
 
             <!-- Card -->
             <a class="card shadow-light-lg mb-7" href="#!">
 
               <!-- Image -->
               <div class="card-zoom">
-                <img class="card-img" src="assets/img/portfolio/portfolio-12.jpg" alt="...">
+                <img class="card-img" src="assets/mwr-img/ex-5.png" alt="...">
               </div>
 
               <!-- Overlay -->
@@ -214,10 +225,10 @@
                   </div>
 
                   <!-- Preheading -->
-                  <h6 class="text-uppercase mb-1 text-muted">Product Design</h6>
+                  <h6 class="text-uppercase mb-1 text-muted">Wedding</h6>
 
                   <!-- Heading -->
-                  <h4 class="mb-0">Goby Packaging </h4>
+                  <h4 class="mb-0">A & B's Wedding Day</h4>
 
                 </div>
               </div>
@@ -225,14 +236,14 @@
             </a>
 
           </div>
-          <div class="col-12 col-md-4 product">
+          <div class="col-12 col-md-4 weddings">
 
             <!-- Card -->
             <a class="card shadow-light-lg mb-7" href="#!">
 
               <!-- Image -->
               <div class="card-zoom">
-                <img class="card-img" src="assets/img/portfolio/portfolio-4.jpg" alt="...">
+                <img class="card-img" src="assets/mwr-img/ex-6.png" alt="...">
               </div>
 
               <!-- Overlay -->
@@ -245,10 +256,10 @@
                   </div>
 
                   <!-- Preheading -->
-                  <h6 class="text-uppercase mb-1 text-muted">Ideation</h6>
+                  <h6 class="text-uppercase mb-1 text-muted">Wedding</h6>
 
                   <!-- Heading -->
-                  <h4 class="mb-0">Doodle Pads</h4>
+                  <h4 class="mb-0">C & D's Special Occasion</h4>
 
                 </div>
               </div>

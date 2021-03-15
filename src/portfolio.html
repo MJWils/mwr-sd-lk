@@ -10,84 +10,52 @@
     <!-- MODALS
     ================================================== -->
     @@include("partials/modals.html")
-
+    
     <!-- NAVBAR
     ================================================== -->
     @@include("partials/navbar.html", {
-    "classList": "navbar-dark",
-    "container": "container-fluid",
-    "button": "primary"
+      "classList": "navbar-dark bg-dark border-bottom navbar-togglable fixed-top",
+      "container": "container-fluid",
+      "button": "primary"
     })
 
-    <!-- WELCOME
+    <!-- header
     ================================================== -->
-    <section class="pt-12 pt-md-14 pb-12 pb-md-15 bg-gray-900" style="margin-top: -83px;">
+    <section class="py-10 py-md-14 d-flex align-items-center" id="welcome" style="
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0,0,0,.8), rgba(0,0,0,.9)),
+                url(assets/mwr-img/ex-6.png) no-repeat center center / cover;
+                min-height: 80vh;
+    ";>
+      <!-- <div class="shape shape-blur-3 svg-shim text-white">
+      @@include("assets/img/shapes/blurs/blur-3.svg")
+      </div> -->
+      <!-- Content -->
       <div class="container">
         <div class="row justify-content-center">
-          <div class="col-12 col-md-10 col-lg-7 text-center">
-            <!-- Headin -->
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+
+      <!-- Heading -->
             <h1 class="display-2 font-weight-bold text-white">
-              Our Work.
+              Our Portfolio
             </h1>
 
             <!-- Text -->
-            <p class="lead text-white-75 mb-4">
-              We design & build products, tools, apps, and sites for companies trying to do great things for our planet.
+            <p class="lead text-white-75 mb-0">
+              Our clients are our friends, we're proud to showcase our body of work
             </p>
-
-            <!-- Badges -->
-            <nav class="nav justify-content-center">
-              <a
-                class="badge badge-pill badge-white-soft active mr-1 mb-1"
-                href="#"
-                data-toggle="pill"
-                data-filter="*"
-                data-target="#portfolio"
-              >
-                <span class="h6 text-uppercase">Primary</span>
-              </a>
-              <a
-                class="badge badge-pill badge-white-soft mr-1 mb-1"
-                href="#"
-                data-toggle="pill"
-                data-filter=".product"
-                data-target="#portfolio"
-              >
-                <span class="h6 text-uppercase">Product</span>
-              </a>
-              <a
-                class="badge badge-pill badge-white-soft mr-1 mb-1"
-                href="#"
-                data-toggle="pill"
-                data-filter=".ux"
-                data-target="#portfolio"
-              >
-                <span class="h6 text-uppercase">UX</span>
-              </a>
-              <a
-                class="badge badge-pill badge-white-soft mr-1 mb-1"
-                href="#"
-                data-toggle="pill"
-                data-filter=".resources"
-                data-target="#portfolio"
-              >
-                <span class="h6 text-uppercase">Resources</span>
-              </a>
-            </nav>
           </div>
-        </div>
-        <!-- / .row -->
-      </div>
-      <!-- / .container -->
-    </section>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
 
-    <!-- SHAPE
-    ================================================== -->
-    <div class="position-relative">
-      <div class="shape shape-bottom shape-fluid-x svg-shim text-light">
-        @@include("assets/img/shapes/curves/curve-1.svg")
+      </section>
+
+      <!-- SHAPE
+      ================================================== -->
+      <div class="position-relative">
+        <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+      @@include("assets/img/shapes/curves/curve-1.svg")
+        </div>
       </div>
-    </div>
 
     <!-- CONTENT
     ================================================== -->
