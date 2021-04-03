@@ -1,0 +1,562 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    @@include("partials/head.html", {
+      "pageTitle": "For Hire"
+    })
+    <style>
+    
+      .scaf {border: 1px solid red !important}
+      .id-jumper {position: relative;bottom: 20vh;}
+
+    </style>
+  </head>
+  <body>
+
+    <!-- MODALS
+    ================================================== -->
+    @@include("partials/modals.html")
+    
+    <!-- NAVBAR
+    ================================================== -->
+    @@include("partials/navbar.html", {
+      "classList": "navbar-dark bg-dark border-bottom navbar-togglable fixed-top",
+      "container": "container-fluid",
+      "button": "primary"
+    })
+<!-- FLEXIBILITY
+    ================================================== --> 
+    <!-- <p class="font-size-lg text-gray-700 mb-7 mb-md-9">
+              No matter what you require, we have a solution. From chair covers to entire dancefloors and DJ kits, it's available.
+            </p> -->
+    <section class="pt-8 pt-md-11 bg-gradient-light-white mt-9 mb-9">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+
+            <h1 class="mb-5">
+              See what's in store!
+            </h1>
+            
+            <span class="badge badge-pill badge-primary-soft mb-3">
+              <span class="h6 text-uppercase">Jump to</span>
+            </span>
+
+          </div>
+        </div> 
+        <div class="row">
+          <div class="col d-flex justify-content-center mb-4">
+            <a href="#chair-decorations" class="p-3 btn border-bottom lift lift-lg shadow-light bg-gradient-light-white">
+              <img src="assets/mwr-img/chair.svg" height="30" alt="">
+              Chair Decorations
+              <i class="fe fe-arrow-down"></i>
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col d-flex justify-content-center mb-4">
+            <a href="#table-dressing" class="p-3 btn border-bottom lift lift-lg shadow-light bg-gradient-light-white">
+              <img src="assets/mwr-img/dining-table.svg" height="30" alt="">
+              Table Dressing
+              <i class="fe fe-arrow-down"></i>
+            </a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col d-flex justify-content-center mb-4">
+            <a href="#bits-n-bobs" class="p-3 btn border-bottom lift lift-lg shadow-light bg-gradient-light-white">
+              <img src="assets/mwr-img/propose.svg" height="30" alt="">
+              Extra Bits & Bobs
+              <i class="fe fe-arrow-down"></i>
+            </a>
+          </div>
+        </div>
+        <!-- <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 text-center" data-aos="fade-up">
+              
+            <a href="#" class="btn" style="border: 1px solid red !important;">
+              <div class="icon icon-lg mb-4">
+                @@include("assets/mwr-img/chair.svg")
+              </div>
+              <h3 class="font-weight-bold">
+                Chair covers
+              </h3>
+              <p class="text-muted mb-8">
+                Simple and synergetic chair covers provide elegant solutions
+              </p>
+            </a>
+
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 text-center" data-aos="fade-up" >
+
+            <div class="icon icon-lg mb-4">
+              @@include("assets/mwr-img/dining-table.svg")
+            </div>
+
+            <h3 class="font-weight-bold">
+              Table dresses
+            </h3>
+
+            <p class="text-muted mb-8 mb-lg-0">
+              Communicate class through sophisticated table designs
+            </p>
+
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 text-center" data-aos="fade-up">
+            
+            <div class="icon icon-lg mb-4">
+              @@include("assets/mwr-img/cp.svg")
+            </div>
+
+            <h3 class="font-weight-bold">
+              Centre Pieces
+            </h3>
+
+            <p class="text-muted mb-8">
+              Make each table feel special, give them something to admire whilst enjoying their dining experience.
+            </p>
+
+          </div>
+        </div> -->
+      </div> <!-- end container -->
+    </section>
+
+    <!-- chairs section
+    ================================================== -->
+    <section class="border-bottom">
+      <div class="id-jumper" id="chair-decorations"></div>
+      <div class="container">
+        <div class="row align-items-stretch">
+          <div class="col-12 col-md-6 offset-md-1 order-md-2">
+
+            <!-- Slider (mobile) -->
+            <div class="d-md-none img-cover" data-flickity='{"imagesLoaded": true, "wrapAround": true, "prevNextButtons": false, "pageDots": true}'>
+              <div class="w-100 d-flex justify-content-center">
+                
+                <!-- Image -->
+                <img src="assets/mwr-img/img-ex-sq.png" alt="..." class="img-fluid">
+
+              </div>
+              <div class="w-100 d-flex justify-content-center">
+                
+                <!-- Image -->
+                <img src="assets/mwr-img/img-ex-sq.png" alt="..." class="img-fluid">
+
+              </div>
+              <div class="w-100 d-flex justify-content-center">
+                
+                <!-- Image -->
+                <img src="assets/mwr-img/img-ex-sq.png" alt="..." class="img-fluid">
+
+              </div>
+              <div class="w-100 d-flex justify-content-center">
+                
+                <!-- Image -->
+                <img src="assets/mwr-img/img-ex-sq.png" alt="..." class="img-fluid">
+
+              </div>
+            </div>
+
+            <!-- Slider -->
+            <div class="position-relative h-100 vw-50 d-none d-md-block" data-aos="fade-left">
+
+              <!-- Slider -->
+              <div class="flickity-button-bottom flickity-button-white h-100 w-100" data-flickity='{"imagesLoaded": true, "setGallerySize": false, "wrapAround": true, "pageDots": false}'>
+                <div class="w-100 h-100 bg-cover" style="background-image: url(assets/mwr-img/img-ex-sq.png);"></div>
+                <div class="w-100 h-100 bg-cover" style="background-image: url(assets/mwr-img/img-ex-sq.png);"></div>
+              </div>
+  
+              <!-- Shape -->
+              <div class="shape shape-left shape-fluid-y svg-shim text-white">
+                @@include("assets/img/shapes/angles/angle-left.svg")
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col-12 col-md-5 py-8 py-md-14 order-md-1" data-aos="fade-right">
+            
+            <!-- Heading -->
+            <h1 class="display-3">
+              <span class="text-warning">Hire</span> <span class="text-primary">Chair Decorations.</span>
+            </h1>
+
+            <!-- Text -->
+            <p class="lead text-muted mb-1 mb-md-3">
+              Enhance your guests dining experience with the simple sophistication granted by our premium selection of chair covers & decorations. 
+            </p>
+
+            <!-- Text -->
+            <p class="lead text-muted mb-1 mb-md-3">
+              Ranging from premium draped linen to Italian stretch-to-fit.
+            </p>
+
+            <!-- Text -->
+            <p class="lead text-muted mb-1 mb-md-3">
+              Find the harmonious ambiance provided by the addition of a sash, we recommend pairing each chair cover with a sash of your chosen colour scheme.
+            </p>
+
+            <!-- Form -->
+            <a href="@@webRoot/chair-decorations.html" class="btn btn-primary">Chair cover options</a>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- tables section
+    ================================================== -->
+    <section class="border-bottom">
+      <div class="id-jumper" id="table-dressing"></div>
+      <div class="container-fluid">
+        <div class="row align-items-stretch">
+          <div class="col-12 col-md-6 order-md-1">
+
+            <!-- Slider (mobile) -->
+            <div class="d-md-none img-cover" data-flickity='{"imagesLoaded": true, "wrapAround": true, "prevNextButtons": false, "pageDots": true}'>
+              <div class="w-100 d-flex justify-content-center">
+                
+                <!-- Image -->
+                <img src="assets/mwr-img/img-ex-sq.png" alt="..." class="img-fluid">
+
+              </div>
+              <div class="w-100 d-flex justify-content-center">
+                
+                <!-- Image -->
+                <img src="assets/mwr-img/img-ex-sq.png" alt="..." class="img-fluid">
+
+              </div>
+              <div class="w-100 d-flex justify-content-center">
+                
+                <!-- Image -->
+                <img src="assets/mwr-img/img-ex-sq.png" alt="..." class="img-fluid">
+
+              </div>
+              <div class="w-100 d-flex justify-content-center">
+                
+                <!-- Image -->
+                <img src="assets/mwr-img/img-ex-sq.png" alt="..." class="img-fluid">
+
+              </div>
+            </div>
+
+            <!-- Slider -->
+            <div class="position-relative h-100 vw-50 d-none d-md-block" data-aos="fade-right">
+
+              <!-- Slider -->
+              <div  class="flickity-button-bottom flickity-button-white h-100 w-100" 
+                    data-flickity='{"imagesLoaded": true, "setGallerySize": false, "wrapAround": true, "pageDots": false, "resize": true}'
+                    style="position:absolute;right: 0% !important;">
+                  <div class="w-100 h-100 bg-cover" style="background-image: url(assets/mwr-img/img-ex-sq.png);"></div>
+                  <div class="w-100 h-100 bg-cover" style="background-image: url(assets/mwr-img/img-ex-sq.png);"></div>
+              </div>
+  
+              <!-- Shape -->
+              <div class="shape shape-right shape-fluid-y svg-shim text-white">
+                @@include("assets/img/shapes/angles/angle-right.svg")
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col-12 offset-md-1 col-md-5 py-8 py-md-14 order-md-2" data-aos="fade-right">
+            
+            <!-- Heading -->
+            <h1 class="display-3">
+              <span class="text-warning">Hire</span> <span class="text-primary">Table dressing.</span>
+            </h1>
+
+            <!-- Text -->
+            <p class="lead text-muted mb-1 mb-md-3">
+              Enhance your guests dining experience with the simple sophistication granted by our premium selection of chair covers & decorations. 
+            </p>
+
+            <!-- Text -->
+            <p class="lead text-muted mb-1 mb-md-3">
+              Ranging from premium draped linen to Italian stretch-to-fit.
+            </p>
+
+            <!-- Text -->
+            <p class="lead text-muted mb-1 mb-md-3">
+              Find the harmonious ambiance provided by the addition of a sash, we recommend pairing each chair cover with a sash of your chosen colour scheme.
+            </p>
+
+            <!-- Form -->
+            <a href="@@webRoot/table-dressing.html" class="btn btn-primary">Table dressing</a>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- extra section
+    ================================================== -->
+    <section class="border-bottom">
+      <div class="id-jumper" id="bits-n-bobs"></div>
+      <div class="container">
+        <div class="row align-items-stretch">
+          <div class="col-12 col-md-6 offset-md-1 order-md-2">
+
+            <!-- Slider (mobile) -->
+            <div class="d-md-none img-cover" data-flickity='{"imagesLoaded": true, "wrapAround": true, "prevNextButtons": false, "pageDots": true}'>
+              <div class="w-100 d-flex justify-content-center">
+                
+                <!-- Image -->
+                <img src="assets/mwr-img/img-ex-sq.png" alt="..." class="img-fluid">
+
+              </div>
+              <div class="w-100 d-flex justify-content-center">
+                
+                <!-- Image -->
+                <img src="assets/mwr-img/img-ex-sq.png" alt="..." class="img-fluid">
+
+              </div>
+              <div class="w-100 d-flex justify-content-center">
+                
+                <!-- Image -->
+                <img src="assets/mwr-img/img-ex-sq.png" alt="..." class="img-fluid">
+
+              </div>
+              <div class="w-100 d-flex justify-content-center">
+                
+                <!-- Image -->
+                <img src="assets/mwr-img/img-ex-sq.png" alt="..." class="img-fluid">
+
+              </div>
+            </div>
+
+            <!-- Slider -->
+            <div class="position-relative h-100 vw-50 d-none d-md-block" data-aos="fade-left">
+
+              <!-- Slider -->
+              <div class="flickity-button-bottom flickity-button-white h-100 w-100" data-flickity='{"imagesLoaded": true, "setGallerySize": false, "wrapAround": true, "pageDots": false}'>
+                <div class="w-100 h-100 bg-cover" style="background-image: url(assets/mwr-img/img-ex-sq.png);"></div>
+                <div class="w-100 h-100 bg-cover" style="background-image: url(assets/mwr-img/img-ex-sq.png);"></div>
+              </div>
+  
+              <!-- Shape -->
+              <div class="shape shape-left shape-fluid-y svg-shim text-white">
+                @@include("assets/img/shapes/angles/angle-left.svg")
+              </div>
+
+            </div>
+
+          </div>
+          <div class="col-12 col-md-5 py-8 py-md-14 order-md-1" data-aos="fade-right">
+            
+            <!-- Heading -->
+            <h1 class="display-3">
+              <span class="text-warning">Hire</span> <span class="text-primary">Extra Decorations.</span>
+            </h1>
+
+            <!-- Text -->
+            <p class="lead text-muted mb-1 mb-md-3">
+              Enhance your guests dining experience with the simple sophistication granted by our premium selection of chair covers & decorations. 
+            </p>
+
+            <!-- Text -->
+            <p class="lead text-muted mb-1 mb-md-3">
+              Ranging from premium draped linen to Italian stretch-to-fit.
+            </p>
+
+            <!-- Text -->
+            <p class="lead text-muted mb-1 mb-md-3">
+              Find the harmonious ambiance provided by the addition of a sash, we recommend pairing each chair cover with a sash of your chosen colour scheme.
+            </p>
+
+            <!-- Form -->
+            <a href="@@webRoot/chair-decorations.html" class="btn btn-primary">Extra options</a>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+    
+    <!-- FAQS
+    ================================================== -->
+    <section class="py-8 py-md-11 bg-light">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+            
+            <!-- Heading -->
+            <h2>
+              <span class="text-primary">Frequently</span> asked questions.
+            </h2>
+
+            <!-- Text -->
+            <p class="font-size-lg text-muted mb-7 mb-md-9 px-md-9">
+              We endevour to include all the amenities and niceties, but if there's anything at all you're unsure about - don't hesitate to ask! 
+            </p>
+
+          </div>
+        </div> <!-- / .row -->
+        <div class="row justify-content-center mb-7">
+          <div class="col-12 col-md-10 col-lg-8">
+            
+            <!-- Card -->
+            <div class="card accordion" id="featuresAccordion">
+              <div class="card-body">
+                
+                <!-- List group -->
+                <div class="list-group list-group-flush">
+                  <div class="list-group-item">
+                    
+                    <!-- Toggle -->
+                    <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse" href="#featuresOne" role="button" aria-expanded="true" aria-controls="featuresOne">
+                      <div class="mr-auto">
+                        
+                        <!-- Title -->
+                        <p class="font-weight-bold mb-0">
+                          Do you offer any package deals?
+                        </p>
+
+                        <!-- Text -->
+                        <p class="font-size-sm text-muted mb-0">
+                          We certainly do!
+                        </p>
+
+                      </div>
+                        
+                      <!-- Badge -->
+                      <span class="badge badge-pill badge-success-soft ml-4">
+                        <span class="h6 text-uppercase">New</span>
+                      </span>
+
+                      <!-- Chevron -->
+                      <span class="collapse-chevron text-muted ml-4">
+                        <i class="fe fe-lg fe-chevron-down"></i>
+                      </span>
+
+                    </a> <!-- / .row -->
+                    
+                    <!-- Collapse -->
+                    <div class="collapse show" id="featuresOne" data-parent="#featuresAccordion">
+                      <div class="py-5 py-mb-6">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt rerum minima a possimus, amet perferendis, temporibus obcaecati pariatur. Reprehenderit magnam necessitatibus vel culpa provident quas nesciunt sunt aut cupiditate fugiat! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt rerum minima a possimus, amet perferendis, temporibus obcaecati pariatur. Reprehenderit magnam necessitatibus vel culpa provident quas nesciunt sunt aut cupiditate fugiat!
+                        </p>
+                        <a href="#!" class="font-weight-bold text-decoration-none">
+                          Check out our deals! <i class="fe fe-arrow-right ml-3"></i>
+                        </a>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="list-group-item">
+                    
+                    <!-- Toggle -->
+                    <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse" href="#featuresTwo" role="button" aria-expanded="false" aria-controls="featuresTwo">
+                      <div class="mr-auto">
+                        
+                        <!-- Title -->
+                        <p class="font-weight-bold mb-0">
+                          If there's something else I want, but I don't see it here on your website, could you help?
+                        </p>
+
+                        <!-- Text -->
+                        <p class="font-size-sm text-muted mb-0">
+                          As long as we've had a good strong cup of coffee in the morning, you can ask us anything!
+                        </p>
+
+                      </div>
+                        
+                      <!-- Chevron -->
+                      <span class="collapse-chevron text-muted ml-4">
+                        <i class="fe fe-lg fe-chevron-down"></i>
+                      </span>
+
+                    </a> <!-- / .row -->
+                    
+                    <!-- Collapse -->
+                    <div class="collapse" id="featuresTwo" data-parent="#featuresAccordion">
+                      <div class="py-5 py-md-6">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt rerum minima a possimus, amet perferendis, temporibus obcaecati pariatur. Reprehenderit magnam necessitatibus vel culpa provident quas nesciunt sunt aut cupiditate fugiat! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt rerum minima a possimus, amet perferendis, temporibus obcaecati pariatur. Reprehenderit magnam necessitatibus vel culpa provident quas nesciunt sunt aut cupiditate fugiat!
+                        </p>
+                        <a href="#!" class="font-weight-bold text-decoration-none">
+                          Have a look at our contacts <i class="fe fe-arrow-right ml-3"></i>
+                        </a>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="list-group-item">
+                    
+                    <!-- Toggle -->
+                    <a class="d-flex align-items-center text-reset text-decoration-none" data-toggle="collapse" href="#featuresThree" role="button" aria-expanded="false" aria-controls="featuresThree">
+                      <div class="mr-auto">
+                        
+                        <!-- Title -->
+                        <p class="font-weight-bold mb-0">
+                          What if I need to change dates because of covid?
+                        </p>
+
+                        <!-- Text -->
+                        <p class="font-size-sm text-muted mb-0">
+                          We understand.
+                        </p>
+
+                      </div>
+                        
+                      <!-- Chevron -->
+                      <span class="collapse-chevron text-muted ml-4">
+                        <i class="fe fe-lg fe-chevron-down"></i>
+                      </span>
+
+                    </a> <!-- / .row -->
+                    
+                    <!-- Collapse -->
+                    <div class="collapse" id="featuresThree" data-parent="#featuresAccordion">
+                      <div class="py-5 py-md-6">
+                        <p>
+                          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt rerum minima a possimus, amet perferendis, temporibus obcaecati pariatur. Reprehenderit magnam necessitatibus vel culpa provident quas nesciunt sunt aut cupiditate fugiat! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt rerum minima a possimus, amet perferendis, temporibus obcaecati pariatur. Reprehenderit magnam necessitatibus vel culpa provident quas nesciunt sunt aut cupiditate fugiat!
+                        </p>
+                        <a href="#!" class="font-weight-bold text-decoration-none">
+                          Our terms & conditions <i class="fe fe-arrow-right ml-3"></i>
+                        </a>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+        </div> <!-- / .row -->
+        <div class="row">
+          <div class="col d-flex justify-content-center text-white text-center" style="flex-direction: column;">
+            <div class="mb-3">Anything else on your mind?</div>
+            <div class="mb-7">Don't hesitate to ask!</div>
+            <div class="d-flex justify-content-center">
+              <a href="#" class="btn btn-primary text-white fw-bold lift">Get in touch today!</a>
+            </div>
+          </div>
+        </div>
+      </div> <!-- / .container -->
+    </section>
+
+    <!-- SHAPE
+    ================================================== -->
+    <div class="position-relative mt-n16">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-dark">
+        @@include("assets/img/shapes/curves/curve-1.svg")
+      </div>
+    </div>
+    <!-- FOOTER
+    ================================================== -->
+    <section class="pt-16 bg-dark">
+      @@include("partials/footer.html", {
+        "classList": "bg-dark border-top border-gray-800-50"
+      })
+    </section>
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    @@include("partials/scripts.html")
+      
+  </body>
+</html>

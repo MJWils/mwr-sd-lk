@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    @@include("partials/head.html", {
+    "pageTitle": "mwr lycra"
+    })
+    <style>
+      .blankspace {color: transparent !important;}
+      .scaf {border: 5px solid red !important;}
+    </style>
+  </head>
+  <body class="pt-10 pt-md-0" style="overflow: visible;">
+
+    <!-- MODALS
+    ================================================== -->
+    @@include("partials/modals.html")
+
+    <!-- NAVBAR
+    ================================================== -->
+    @@include("partials/navbar.html", {
+      "classList": "navbar-dark bg-dark border-bottom navbar-togglable fixed-top",
+      "container": "container-fluid",
+      "button": "primary"
+    })
+
+    <!-- CONTENT
+    ================================================== -->
+    
+    <!-- header
+    ================================================== -->
+    <!-- <div id="scrollPageTop">123</div> -->
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-5 position-md-sticky d-flex justify-content-center vh-md-100" style="top: 0;">
+          <div class="container pt-8 px-md-10 py-md-14">
+            <h1 class="display-2 font-weight-bold text-uppercase">
+              Lycra
+            </h1>
+            <!-- Text -->
+            <p class="lead mb-5 pb-5">
+              Simple & sophisticated.
+            </p>
+            <ul class="list-group list-group-flush mb-3">
+              <li class="list-group-item">
+
+                <!-- Heading -->
+                <h6 class="d-flex mb-0 text-uppercase">
+                  Price <span class="ml-auto">£1</span>
+                </h6>
+
+              </li>
+              <li class="list-group-item">
+
+                <!-- Heading -->
+                <h6 class="d-flex mb-0 text-uppercase">
+                  Service <span class="ml-auto">Fitted | DIY</span>
+                </h6>
+
+              </li>
+              <li class="list-group-item">
+
+                <!-- Heading -->
+                <h6 class="d-flex mb-0 text-uppercase">
+                  Hire from <span class="ml-auto">60 Days</span>
+                </h6>
+
+              </li>
+            </ul>
+            <p class="text-muted border-top pt-3">Inventore eius culpa similique libero saepe autem exercitationem incidunt aliquam perspiciatis. Excepturi maxime voluptates veniam doloremque optio ad saepe iusto mollitia blanditiis.</p>
+            <p class="text-muted text-center"><i class="fe fe-heart"></i> See our colour options <i class="fe fe-heart"></i></p>
+            <!-- Badges -->
+            <nav class="nav justify-content-center align-items-center mb-7">
+              <a class="badge badge-pill badge-primary active mr-1 mb-md-3 lift" href="#" data-toggle="pill" data-filter=".lycra-white" data-target="#portfolio">
+                <span class="h6 text-uppercase">White</span>
+              </a>
+              <a class="badge badge-pill badge-primary mr-1 mb-md-3 lift" href="#" data-toggle="pill" data-filter=".lycra-black" data-target="#portfolio">
+                <span class="h6 text-uppercase">Black</span>
+              </a>
+              <a class="badge badge-pill badge-primary mr-1 mb-md-3 lift" href="#" data-toggle="pill" data-filter=".lycra-ivory" data-target="#portfolio">
+                <span class="h6 text-uppercase">Ivory</span>
+              </a>
+              <a class="badge badge-pill badge-primary mr-1 mb-md-3 lift" href="#" data-toggle="pill" data-filter="*" data-target="#portfolio">
+                <span class="h6 text-uppercase">All</span>
+              </a>
+            </nav>
+          </div>
+        </div> <!-- end of col-->
+          <!-- SHAPE
+          ================================================== -->
+          <!-- <div class="position-relative">
+            <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+          @@include("assets/img/shapes/curves/curve-1.svg")
+            </div>
+          </div> -->
+          
+          <!-- <a class="d-block" data-fancybox data-width="840" data-heigt="1000" href="assets/img/portfolio/portfolio-21.jpg">
+            <img class="img-fluid rounded" src="assets/img/portfolio/portfolio-21.jpg" alt="...">
+          </a> -->
+        <!-- IMAGES
+        ================================================== -->
+        <div class="col-12 col-md-6 col-lg-7">
+          <section class="py-2 py-md-11">
+            <div class="container">
+              <div class="row" id="portfolio" data-isotope='{"layoutMode": "masonry"}'>
+                <div class="col-12 lycra-black">
+                  <a class="shadow-light-lg m-3" href="#!">
+                      <img class="img-fluid" src="assets/mwr-img/img-ex-row.png" alt="...">
+                  </a>
+                </div>
+                <div class="col-12 lycra-ivory">
+                  <a class="shadow-light-lg m-3" href="#!">
+                      <img class="img-fluid" src="assets/mwr-img/img-ex-col.png" alt="...">
+                  </a>
+                </div>
+                <div class="col-12 lycra-white">
+                  <a class="shadow-light-lg m-3" href="#!">
+                      <img class="img-fluid" src="assets/mwr-img/img-ex-sq.png" alt="...">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div> <!-- end col-6-->
+      </div>
+    </div> <!--end main row-->
+
+    <!-- SHAPE
+    ================================================== -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-gray-200">
+        @@include("assets/img/shapes/curves/curve-1.svg")
+      </div>
+    </div>
+
+    <!-- CTA
+    ================================================== -->
+    <section class="py-10 py-md-13 bg-gray-200 bg-between" style="background-image: url(assets/mwr-img/img-ex-sq.png), url(assets/mwr-img/img-ex-sq.png);">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8 text-center">
+            
+            <!-- Heading -->
+            <h2 class="font-weight-bold">
+              Want it all or not sure what you need?
+            </h2>
+
+            <!-- Text -->
+            <p class="font-size-lg text-muted mb-8 px-lg-9">
+              Check out our package deals or drop us a message!
+            </p>
+
+            <!-- Button -->
+            <a href="#!" class="btn btn-warning lift m-5">
+              Package deals
+            </a>
+            <a href="#!" class="btn btn-primary lift">
+              Contact us today!
+            </a>
+
+          </div>
+        </div> <!-- / .row -->
+      </div> <!-- / .container -->
+    </section>
+
+   
+
+    <!-- FOOTER
+    ================================================== -->
+    @@include("partials/footer.html", {
+    "classList": "bg-dark"
+    })
+
+    <!-- JAVASCRIPT
+    ================================================== -->
+    @@include("partials/scripts.html")
+
+  </body>
+</html>

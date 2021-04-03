@@ -2,6 +2,7 @@
   <div class="@@container">
 
     <!-- Brand -->
+    
     <a class="navbar-brand" href="@@webRoot/index.html">
       <img src="@@webRoot/assets/mwr-img/mwr-logo.png" class="navbar-brand-img" alt="..." width="300" height="300">
     </a>
@@ -20,328 +21,423 @@
       </button>
 
       <!-- Navigation -->
+      <a class="navbar-btn btn ml-auto d-lg-none mt-5" href="@@webRoot/index.html">
+        Home
+      </a>
+      <a class="navbar-btn btn ml-auto d-lg-none" href="@@webRoot/index.html">
+        Packages
+      </a>
+      <a class="navbar-btn btn ml-auto d-lg-none" href="@@webRoot/index.html">
+        Catalogue
+      </a>
+      <a class="navbar-btn btn ml-auto d-lg-none" href="@@webRoot/dummy.html">
+        Pricing
+      </a>
+      <a class="navbar-btn btn ml-auto d-lg-none" href="@@webRoot/gallery.html">
+        Gallery
+      </a>
+      <a class="navbar-btn btn ml-auto d-lg-none" href="@@webRoot/about.html">
+        About
+      </a>
+      <a class="navbar-btn btn ml-auto d-lg-none" href="@@webRoot/blog.html">
+        Blog
+      </a>
       <ul class="navbar-nav ml-auto">
+        <li class="nav-item d-none d-lg-inline"><a href="@@webRoot//dummy.html" class="nav-link">Packages</a></li>
+        <li class="nav-item d-none d-lg-inline"><a href="@@webRoot//dummy.html" class="nav-link">Pricing</a></li>
 
-        <!-- =================== SERVICES ===================== -->
+        
+            <!-- Catalogue dropdown
+            ================================= -->
 
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" id="navbarDocumentation" data-toggle="dropdown" href="@@webRoot/dummy.html" aria-haspopup="true" aria-expanded="false">
-            Services
+        <li class="nav-item dropdown d-none d-lg-inline">
+          <a class="nav-link" id="venue-styling-dd" data-toggle="" href="#" aria-haspopup="true" aria-expanded="false">
+            Catalogue <i class="fe fe-arrow-down font-size-sm"></i>
           </a>
-          <div class="dropdown-menu dropdown-menu-md" aria-labelledby="navbarDocumentation">
-            <div class="list-group list-group-flush">
-              <a class="list-group-item" href="@@webRoot/dummy.html">
-
-                <!-- Icon -->
-                <div class="icon icon-sm text-primary">
-                  @@include("../assets/img/icons/duotone-icons/General/Clipboard.svg")
-                </div>
-
-                <!-- Content -->
-                <div class="ml-4">
-
-                  <!-- Heading -->
-                  <h6 class="font-weight-bold text-uppercase text-primary mb-0">
-                    Event Planning
-                  </h6>
-
-                  <!-- Text -->
-                  <p class="font-size-sm text-gray-700 mb-0">
-                    Ensuring everything goes to plan
-                  </p>
-
-                </div>
-
+          <ul class="dropdown-menu" aria-labelledby="venue-styling-dd">
+            
+            <!-- Chair Decorations
+            ================================= -->
+            <li class="dropdown-item dropright">
+              <a class="dropdown-link" id="catalogue-dd" data-toggle="" href="@@webRoot/chair-decorations.html" aria-haspopup="true" aria-expanded="false">
+                Chair Decorations <i class="fe fe-arrow-right font-size-sm"></i>
               </a>
-              <a class="list-group-item" href="@@webRoot/dummy.html">
-
-                <!-- Icon -->
-                <div class="icon icon-sm text-primary">
-                  @@include("../assets/img/icons/duotone-icons/Layout/Layout-4-blocks.svg")
-                </div>
-
-                <!-- Content -->
-                <div class="ml-4">
-
-                  <!-- Heading -->
-                  <h6 class="font-weight-bold text-uppercase text-primary mb-0">
-                    Equipment Hire
-                  </h6>
-
-                  <!-- Text -->
-                  <p class="font-size-sm text-gray-700 mb-0">
-                    See what we've got in stock!
-                  </p>
-
-                </div>
-
+              <ul class="dropdown-menu" aria-labelledby="catalogue-dd">
+                <li class="dropdown-item dropright">
+                  <a class="dropdown-link" data-toggle="" href="@@webRoot/chair-covers.html">
+                    Chair Covers <i class="fe fe-arrow-right font-size-sm"></i>
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="@@webRoot/lycra-chair-covers.html">
+                      Lycra
+                    </a>
+                    <a class="dropdown-item" href="@@webRoot/draped-chair-covers.html">
+                      Draped
+                    </a>
+                  </div>
+                </li>
+                <li class="dropdown-item dropright">
+                  <a class="dropdown-link" data-toggle="" href="@@webRoot/chair-sashes-hoods.html">
+                    Sashes & Hoods <i class="fe fe-arrow-right font-size-sm"></i>
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="@@webRoot/sashes-hoods-organza.html">
+                      Organza
+                    </a>
+                    <a class="dropdown-item" href="@@webRoot/sashes-hoods-taffeta.html">
+                      Taffeta
+                    </a>
+                    <a class="dropdown-item" href="@@webRoot/sashes-hoods-satin.html">
+                      Satin
+                    </a>
+                    <a class="dropdown-item" href="@@webRoot/sashes-hoods-lace.html">
+                      Lace
+                    </a>
+                    <a class="dropdown-item" href="@@webRoot/sashes-hoods-hessian.html">
+                      Hessian
+                    </a>
+                  </div>
+                </li>
+                <li class="dropdown-item dropright">
+                  <a class="dropdown-link" data-toggle="" href="@@webRoot/chair-extras.html">
+                    Chair Extras <i class="fe fe-arrow-right font-size-sm"></i>
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="@@webRoot/chair-extras-brooches.html">
+                      Brooches
+                    </a>
+                    <a class="dropdown-item" href="@@webRoot/chair-extras-ribbons.html">
+                      Ribbons
+                    </a>
+                    <a class="dropdown-item" href="@@webRoot/chair-extras-lace.html">
+                      Lace
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            
+            <!-- Table Dressing
+            ================================= -->
+            <li class="dropdown-item dropright">
+              <a class="dropdown-link" id="catalogue-dd" data-toggle="" href="#" aria-haspopup="true" aria-expanded="false">
+                Table Dressing <i class="fe fe-arrow-right font-size-sm"></i>
               </a>
-              <a class="list-group-item" href="@@webRoot/dummy.html">
+              <ul class="dropdown-menu" aria-labelledby="catalogue-dd">
+                <li class="dropdown-item dropright">
+                  <a class="dropdown-link" data-toggle="" href="#">
+                    Table Cloths <i class="fe fe-arrow-right font-size-sm"></i>
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="@@webRoot/account-general.html">
+                      Lycra
+                    </a>
+                    <a class="dropdown-item" href="@@webRoot/account-security.html">
+                      Linen
+                    </a>
+                  </div>
+                </li>
+                <li class="dropdown-item">
+                  <a class="dropdown-link" data-toggle="" href="#">
+                    Table Swags
+                  </a>
+                </li>
+                <li class="dropdown-item dropright">
+                  <a class="dropdown-link" data-toggle="" href="@@webRoot/table-runners.html">
+                    Table Runners <i class="fe fe-arrow-right font-size-sm"></i>
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="@@webRoot/table-runners-organza.html">
+                      Organza
+                    </a>
+                    <a class="dropdown-item" href="@@webRoot/table-runners-taffeta.html">
+                      Taffeta
+                    </a>
+                    <a class="dropdown-item" href="@@webRoot/table-runners-satin.html">
+                      Satin
+                    </a>
+                    <a class="dropdown-item" href="@@webRoot/table-runners-lace.html">
+                      Lace
+                    </a>
+                    <a class="dropdown-item" href="@@webRoot/table-runners-hessian.html">
+                      Hessian
+                    </a>
+                  </div>
+                </li>
+                <li class="dropdown-item">
+                  <a class="dropdown-link" data-toggle="" href="#">
+                    Table Napkins
+                  </a>
+                </li>
+                <li class="dropdown-item dropright">
+                  <a class="dropdown-link" data-toggle="" href="#">
+                    Table Scatters <i class="fe fe-arrow-right font-size-sm"></i>
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="@@webRoot/account-general.html">
+                      Petals
+                    </a>
+                    <a class="dropdown-item" href="@@webRoot/account-security.html">
+                      Jewels
+                    </a>
+                  </div>
+                </li>
+                <li class="dropdown-item dropright">
+                  <a class="dropdown-link" data-toggle="" href="#">
+                    Table Extras <i class="fe fe-arrow-right font-size-sm"></i>
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="@@webRoot/account-general.html">
+                      Tealights
+                    </a>
+                    <a class="dropdown-item" href="@@webRoot/account-security.html">
+                      Foliage
+                    </a>
+                    <a class="dropdown-item" href="@@webRoot/account-security.html">
+                      Table Numbers
+                    </a>
+                    <a class="dropdown-item" href="@@webRoot/account-security.html">
+                      Candles
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </li>
 
-                <!-- Icon -->
-                <div class="icon icon-sm text-primary">
-                  @@include("../assets/img/icons/duotone-icons/Files/File.svg")
-                </div>
-
-                <!-- Content -->
-                <div class="ml-4">
-
-                  <!-- Heading -->
-                  <h6 class="font-weight-bold text-uppercase text-primary mb-0">
-                    Event Set Up
-                  </h6>
-
-                  <!-- Text -->
-                  <p class="font-size-sm text-gray-700 mb-0">
-                    We follow through the right way.
-                  </p>
-
-                </div>
-
+            <!-- Centre Pieces
+            ================================= -->
+            <li class="dropdown-item dropright">
+              <a class="dropdown-link" id="catalogue-dd" data-toggle="" href="#" aria-haspopup="true" aria-expanded="false">
+                Centre Pieces <i class="fe fe-arrow-right font-size-sm"></i>
               </a>
-            </div>
-          </div>
-        </li>
+              <ul class="dropdown-menu" aria-labelledby="catalogue-dd">
+                <li class="dropdown-item dropright">
+                  <a class="dropdown-link" data-toggle="" href="#">
+                    Glassware <i class="fe fe-arrow-right font-size-sm"></i>
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="@@webRoot/account-general.html">
+                      Fishbowls
+                    </a>
+                    <a class="dropdown-item" href="@@webRoot/account-security.html">
+                      Martini Vases
+                    </a>
+                  </div>
+                </li>
+                <li class="dropdown-item">
+                  <a class="dropdown-link" data-toggle="" href="#">
+                    Ornate
+                  </a>
+                </li>
+                <li class="dropdown-item dropright">
+                  <a class="dropdown-link" data-toggle="" href="@@webRoot/table-runners.html">
+                    Lanterns <i class="fe fe-arrow-right font-size-sm"></i>
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="@@webRoot/table-runners-organza.html">
+                      Organza
+                    </a>
+                    <a class="dropdown-item" href="@@webRoot/table-runners-taffeta.html">
+                      Taffeta
+                    </a>
+                    <a class="dropdown-item" href="@@webRoot/table-runners-satin.html">
+                      Satin
+                    </a>
+                    <a class="dropdown-item" href="@@webRoot/table-runners-lace.html">
+                      Lace
+                    </a>
+                    <a class="dropdown-item" href="@@webRoot/table-runners-hessian.html">
+                      Hessian
+                    </a>
+                  </div>
+                </li>
+                <li class="dropdown-item">
+                  <a class="dropdown-link" data-toggle="" href="#">
+                    x-ample
+                  </a>
+                </li>
+                <li class="dropdown-item dropright">
+                  <a class="dropdown-link" data-toggle="" href="#">
+                    Table Scatters <i class="fe fe-arrow-right font-size-sm"></i>
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="@@webRoot/account-general.html">
+                      Petals
+                    </a>
+                    <a class="dropdown-item" href="@@webRoot/account-security.html">
+                      Jewels
+                    </a>
+                  </div>
+                </li>
+                <li class="dropdown-item dropright">
+                  <a class="dropdown-link" data-toggle="" href="#">
+                    Centre Piece Extras <i class="fe fe-arrow-right font-size-sm"></i>
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="@@webRoot/account-general.html">
+                      Tealights
+                    </a>
+                    <a class="dropdown-item" href="@@webRoot/account-security.html">
+                      Foliage
+                    </a>
+                    <a class="dropdown-item" href="@@webRoot/account-security.html">
+                      Table Numbers
+                    </a>
+                    <a class="dropdown-item" href="@@webRoot/account-security.html">
+                      Candles
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </li>
 
-        <!-- =================== FOR HIRE ===================== -->
+            <!-- Room Decor
+            ================================= -->
 
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" id="dd-hire" data-toggle="dropdown" href="@@webRoot/dummy.html" aria-haspopup="true" aria-expanded="false">
-            For hire
+            <li class="dropdown-item dropright">
+              <a class="dropdown-link" id="catalogue-dd" data-toggle="" href="#" aria-haspopup="true" aria-expanded="false">
+                Room Decor <i class="fe fe-arrow-right font-size-sm"></i>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="catalogue-dd">
+                <li class="dropdown-item">
+                  <a class="dropdown-link" data-toggle="" href="#">
+                    Postbox
+                  </a>
+                </li>
+                <li class="dropdown-item">
+                  <a class="dropdown-link" data-toggle="" href="#">
+                    Bay Trees
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <!-- Backdrops
+            ================================= -->
+
+            <li class="dropdown-item dropright">
+              <a class="dropdown-link" id="catalogue-dd" data-toggle="" href="#" aria-haspopup="true" aria-expanded="false">
+                Backdrops <i class="fe fe-arrow-right font-size-sm"></i>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="catalogue-dd">
+                <li class="dropdown-item">
+                  <a class="dropdown-link" data-toggle="" href="#">
+                    big one
+                  </a>
+                </li>
+                <li class="dropdown-item">
+                  <a class="dropdown-link" data-toggle="" href="#">
+                    little one
+                  </a>
+                </li>
+              </ul>
+            </li>
+
+            <!-- Ceiling Decor
+            ================================= -->
+
+            <li class="dropdown-item dropright">
+              <a class="dropdown-link" id="catalogue-dd" data-toggle="" href="#" aria-haspopup="true" aria-expanded="false">
+                Ceiling Decor <i class="fe fe-arrow-right font-size-sm"></i>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="catalogue-dd">
+                <li class="dropdown-item">
+                  <a class="dropdown-link" data-toggle="" href="#">
+                    Fairy Lights
+                  </a>
+                </li>
+                <li class="dropdown-item">
+                  <a class="dropdown-link" data-toggle="" href="#">
+                    Drapes
+                  </a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li> 
+
+        <!-- =================== Venue styling 3 deep megamenu blueprint ===================== -->
+
+        
+        <!-- <li class="nav-item dropdown d-none d-lg-inline">
+          <a class="nav-link" id="venue-styling-dd" data-toggle="" href="#" aria-haspopup="true" aria-expanded="false">
+            Venue Styling <i class="fe fe-arrow-down font-size-sm"></i>
           </a>
-          <div class="dropdown-menu dropdown-menu-md" aria-labelledby="dd-hire">
-            <div class="list-group list-group-flush">
-              <a class="list-group-item" href="@@webRoot/dummy.html">
-
-                <!-- Icon -->
-                <div class="icon icon-sm text-primary">
-                  @@include("../assets/mwr-img/chair.svg")
-                </div>
-
-                <!-- Content -->
-                <div class="ml-4">
-
-                  <!-- Heading -->
-                  <h6 class="font-weight-bold text-primary mb-0 text-uppercase">
-                    Chair covers
-                  </h6>
-                </div>
-
+          <ul class="dropdown-menu" aria-labelledby="venue-styling-dd">
+            <li class="dropdown-item dropright">
+              <a class="dropdown-link" data-toggle="" href="#">
+                Packages <i class="fe fe-arrow-right font-size-sm"></i>
               </a>
-              <a class="list-group-item" href="@@webRoot/dummy.html">
-
-                <!-- Icon -->
-                <div class="icon icon-sm text-primary">
-                  @@include("../assets/mwr-img/dining-table.svg")
-                </div>
-
-                <!-- Content -->
-                <div class="ml-4">
-
-                  <!-- Heading -->
-                  <h6 class="font-weight-bold text-primary mb-0 text-uppercase">
-                    Table Dresses
-                  </h6>
-
-                </div>
-
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="@@webRoot/account-general.html">
+                  Rustic
+                </a>
+                <a class="dropdown-item" href="@@webRoot/account-security.html">
+                  Classic
+                </a>
+                <a class="dropdown-item" href="@@webRoot/account-notifications.html">
+                  Modern
+                </a>
+              </div>
+            </li>
+            <li class="dropdown-item dropright">
+              <a class="dropdown-link" id="catalogue-dd" data-toggle="" href="#" aria-haspopup="true" aria-expanded="false">
+                Catalogue <i class="fe fe-arrow-right font-size-sm"></i>
               </a>
-              <a class="list-group-item" href="@@webRoot/dummy.html">
-
-                <!-- Icon -->
-                <div class="icon icon-sm text-primary">
-                  @@include("../assets/img/icons/duotone-icons/Home/Curtains.svg")
-                </div>
-
-                <!-- Content -->
-                <div class="ml-4">
-
-                  <!-- Heading -->
-                  <h6 class="font-weight-bold text-uppercase text-primary mb-0">
-                    Backdrops
-                  </h6>
-                </div>
-
-                <!-- Badge -->
-                <!-- <span class="badge badge-pill badge-primary-soft ml-auto">
-                  1.2.2
-                </span> -->
-
-              </a>
-              <a class="list-group-item" href="@@webRoot/dummy.html">
-
-                <!-- Icon -->
-                <div class="icon icon-sm text-primary">
-                  @@include("../assets/mwr-img/cp.svg")
-                </div>
-
-                <!-- Content -->
-                <div class="ml-4">
-
-                  <!-- Heading -->
-                  <h6 class="font-weight-bold text-primary mb-0 text-uppercase">
-                    Centre Pieces
-                  </h6>
-
-                </div>
-
-              </a>
-              <a class="list-group-item" href="@@webRoot/dummy.html">
-
-                <!-- Icon -->
-                <div class="icon icon-sm text-primary">
-                  @@include("../assets/mwr-img/spotlight.svg")
-                </div>
-
-                <!-- Content -->
-                <div class="ml-4">
-
-                  <!-- Heading -->
-                  <h6 class="font-weight-bold text-primary mb-0 text-uppercase">
-                    Uplighting
-                  </h6>
-
-                </div>
-
-              </a>
-              <a class="list-group-item" href="@@webRoot/dummy.html">
-
-                <!-- Icon -->
-                <div class="icon icon-sm text-primary">
-                  @@include("../assets/img/icons/duotone-icons/Home/Air-ballon.svg")
-                </div>
-
-                <!-- Content -->
-                <div class="ml-4">
-
-                  <!-- Heading -->
-                  <h6 class="font-weight-bold text-primary mb-0 text-uppercase">
-                    Extra Touches
-                  </h6>
-
-                </div>
-
-              </a>
-            </div>
-          </div>
-        </li>
+              <ul class="dropdown-menu" aria-labelledby="catalogue-dd">
+                <li class="dropdown-item dropright">
+                  <a class="dropdown-link" data-toggle="" href="#">
+                    Chair Covers <i class="fe fe-arrow-right font-size-sm"></i>
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="@@webRoot/account-general.html">
+                      Lycra
+                    </a>
+                    <a class="dropdown-item" href="@@webRoot/account-security.html">
+                      Draped
+                    </a>
+                  </div>
+                </li>
+                <li class="dropdown-item dropright">
+                  <a class="dropdown-link" data-toggle="" href="#">
+                    Table Dressing <i class="fe fe-arrow-right font-size-sm"></i>
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="@@webRoot/signin-illustration.html">
+                      Table Linens
+                    </a>
+                    <a class="dropdown-item" data-toggle="modal" href="#modalSigninHorizontal">
+                      Room Decor
+                    </a>
+                    <a class="dropdown-item" data-toggle="modal" href="#modalSigninVertical">
+                      Extra Touches
+                    </a>
+                  </div>
+                </li>
+                <li class="dropdown-item dropright">
+                  <a class="dropdown-link" data-toggle="" href="#">
+                    Backdrops <i class="fe fe-arrow-right font-size-sm"></i>
+                  </a>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="@@webRoot/account-general.html">
+                      Lycra
+                    </a>
+                    <a class="dropdown-item" href="@@webRoot/account-security.html">
+                      Draped
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </li> -->
+        <li class="nav-item d-none d-lg-inline"><a href="@@webRoot/gallery.html" class="nav-link">Gallery</a></li>
+        <li class="nav-item d-none d-lg-inline"><a href="@@webRoot/about.html" class="nav-link">About</a></li>
+        <li class="nav-item d-none d-lg-inline"><a href="@@webRoot/blog.html" class="nav-link">Blog</a></li>
 
         <!-- =================== PORTFOLIO ===================== -->
         
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" id="dd-portfolio" data-toggle="dropdown" href="@@webRoot/portfolio.html" aria-haspopup="true" aria-expanded="false">
-            Portfolio
-          </a>
-          <div class="dropdown-menu dropdown-menu-md" aria-labelledby="dd-portfolio">
-            <div class="list-group list-group-flush">
-              <a class="list-group-item" href="@@webRoot/portfolio.html">
-
-                <!-- Icon -->
-                <div class="icon icon-sm text-primary">
-                  @@include("../assets/img/icons/duotone-icons/General/Clipboard.svg")
-                </div>
-
-                <!-- Content -->
-                <div class="ml-4">
-
-                  <!-- Heading -->
-                  <h6 class="font-weight-bold text-uppercase text-primary mb-0">
-                    Portfolio
-                  </h6>
-
-                  <!-- Text -->
-                  <p class="font-size-sm text-gray-700 mb-0">
-                    Our proudest moments
-                  </p>
-
-                </div>
-
-              </a>
-              <a class="list-group-item" href="@@webRoot/gallery.html">
-
-                <!-- Icon -->
-                <div class="icon icon-sm text-primary">
-                  @@include("../assets/img/icons/duotone-icons/Layout/Layout-4-blocks.svg")
-                </div>
-
-                <!-- Content -->
-                <div class="ml-4">
-
-                  <!-- Heading -->
-                  <h6 class="font-weight-bold text-uppercase text-primary mb-0">
-                    Gallery
-                  </h6>
-
-                  <!-- Text -->
-                  <p class="font-size-sm text-gray-700 mb-0">
-                    Full view of our work
-                  </p>
-
-                </div>
-
-              </a>
-            </div>
-          </div>
-        </li>
-
-        <!-- =================== ABOUT ===================== -->
-
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" id="navbarDocumentation" data-toggle="dropdown" href="@@webRoot/about.html" aria-haspopup="true" aria-expanded="false">
-            About
-          </a>
-          <div class="dropdown-menu dropdown-menu-md" aria-labelledby="navbarDocumentation">
-            <div class="list-group list-group-flush">
-              <a class="list-group-item" href="@@webRoot/about.html">
-
-                <!-- Icon -->
-                <div class="icon icon-sm text-primary">
-                  @@include("../assets/img/icons/duotone-icons/General/Clipboard.svg")
-                </div>
-
-                <!-- Content -->
-                <div class="ml-4">
-
-                  <!-- Heading -->
-                  <h6 class="font-weight-bold text-uppercase text-primary mb-0">
-                    Who we are
-                  </h6>
-
-                  <!-- Text -->
-                  <p class="font-size-sm text-gray-700 mb-0">
-                    Hint, we're smaller and localer than you think!
-                  </p>
-
-                </div>
-
-              </a>
-              <a class="list-group-item" href="@@webRoot/dummy.html">
-
-                <!-- Icon -->
-                <div class="icon icon-sm text-primary">
-                  @@include("../assets/img/icons/duotone-icons/General/Clipboard.svg")
-                </div>
-
-                <!-- Content -->
-                <div class="ml-4">
-
-                  <!-- Heading -->
-                  <h6 class="font-weight-bold text-uppercase text-primary mb-0">
-                    Our Blog
-                  </h6>
-
-                  <!-- Text -->
-                  <p class="font-size-sm text-gray-700 mb-0">
-                    Sharing is caring! We hope you find our thoughts useful!
-                  </p>
-
-                </div>
-
-              </a>
-             
-            </div>
-          </div>
-        </li>
+        
       </ul>
 
       <!-- Button -->
